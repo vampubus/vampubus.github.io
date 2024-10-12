@@ -8,6 +8,8 @@ a,span{font-family:monospace,monospace;font-size:0.8rem}
 ul{list-style:none;padding-left:0em;}
 li ul{padding-left:2rem;margin-bottom:1em;}
 li li{padding-left:0.3rem;}
+li li::marker{content:"※";}
+li li:nth-child(1)::marker{content:"※";color:#f00;}
 li li:nth-child(1)::marker{content:"※";color:#f00;}
 li li:nth-child(2)::marker{content:"※";color:#ff7500;}
 li li:nth-child(3)::marker{content:"※";color:#ffeb00;}
@@ -19,9 +21,9 @@ li li:nth-child(8)::marker{content:"※";color:#00c4ff;}
 li li:nth-child(9)::marker{content:"※";color:#004eff;}
 li li:nth-child(10)::marker{content:"※";color:#2700ff;}
 li li:nth-child(11)::marker{content:"※";color:#9c00ff;}
-li:nth-child(2) li:nth-child(1)::marker{content:"※";color:#ff00eb;}
-li:nth-child(2) li:nth-child(2)::marker{content:"※";color:#ff0075;}
-li:nth-child(2) li:nth-child(3)::marker{content:"※";color:#ff0000;}
+li li:nth-child(12)::marker{content:"※";color:#ff00eb;}
+li li:nth-child(13) li:nth-child(2)::marker{content:"※";color:#ff0075;}
+li li:nth-child(14) li:nth-child(3)::marker{content:"※";color:#ff0000;}
 li.nsfw::after{content:" [NSFW]";color:red;font-family:monospace;font-size:0.6rem;}
 </style>
 </head>
@@ -33,6 +35,7 @@ li.nsfw::after{content:" [NSFW]";color:red;font-family:monospace;font-size:0.6re
 <ul>
 <li class="nsfw">Twitter: <a href="https://twitter.com/vampubus_">@vampubus_</a></li>
 <li>Twitter: <a href="https://twitter.com/vampubus_sfw">@vampubus_sfw</a></li>
+<li class="nsfw">Mastodon: <a href="https://kinky.business/@vampubus">@vampubus@kinky.business</a></li>
 <li>Bluesky: <a href="https://bsky.app/profile/succubus.me">@succubus.me</a></li>
 <li>Instagram: <a href="https://www.instagram.com/vampubus/">@vampubus</a></li>
 <li class="nsfw">FetLife: <a href="https://fetlife.com/users/19129873">vampubus</a></li>
